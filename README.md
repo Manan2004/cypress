@@ -1,9 +1,11 @@
-# 🍃 Next.js Leaflet Starter
+# Cypress
 
 Jumpstart your new Next.js mapping project with Leaflet!
 
-## ⚡ Quick Deploy
-[![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/colbyfayock/next-leaflet-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/next-leaflet-starter)
+## 🌟 Introduction
+This project is a starter template for building interactive mapping applications using Next.js and Leaflet. It provides a seamless integration of React Leaflet for creating dynamic maps with ease. Whether you're building a simple map or a complex geospatial application, this template has you covered.
+
+
 
 
 ## 🧰 What This Includes
@@ -17,9 +19,6 @@ Jumpstart your new Next.js mapping project with Leaflet!
 
 ### Quick Start
 
-```
-npx create-next-app -e https://github.com/colbyfayock/next-leaflet-starter
-```
 
 ### Running the Project
 First, run the development server:
