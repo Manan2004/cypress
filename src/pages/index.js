@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Next.js Leaflet Starter</title>
+        <title>Cypress</title>
         <meta
           name="description"
           content="Create mapping apps with Next.js Leaflet Starter"
@@ -24,7 +24,7 @@ export default function Home() {
 
       <Section>
         <Container>
-          <h1 className={styles.title}>Next.js Leaflet Starter</h1>
+          <h1 className={styles.title}>Cypress</h1>
 
           <Map
             className={styles.homeMap}
@@ -47,18 +47,12 @@ export default function Home() {
               </>
             )}
           </Map>
-
           <p className={styles.description}>
-            <code className={styles.code}>
-              npx create-next-app -e
-              https://github.com/colbyfayock/next-leaflet-starter
-            </code>
-          </p>
-
-          <p className={styles.view}>
-            <Button href="https://github.com/colbyfayock/next-leaflet-starter">
-              Vew on GitHub
-            </Button>
+            Cypress is a web application that allows Toronto citizens to report
+            and track problems they notice on city streets. Users can pinpoint
+            the location of issues on an interactive map, specify the type of
+            problem, and submit reports to the City of Toronto with all
+            necessary details.
           </p>
         </Container>
       </Section>
