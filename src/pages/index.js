@@ -7,17 +7,21 @@ import Map from "@components/Map";
 import Button from "@components/Button";
 
 import styles from "@styles/Home.module.scss";
+import { useState } from "react";
 
-const DEFAULT_CENTER = [38.907132, -77.036546];
+const DEFAULT_CENTER = [43.65229790812004, -79.3834161444346];
 
 export default function Home() {
+  const [markers, setMarkers] = useState([]);
+  const [visibility, setVisibility] = useState(false);
+
   return (
     <Layout>
       <Head>
         <title>Cypress</title>
         <meta
           name="description"
-          content="Create mapping apps with Next.js Leaflet Starter"
+          content="A web application that allows Toronto citizens to report and track problems they notice on city streets."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
