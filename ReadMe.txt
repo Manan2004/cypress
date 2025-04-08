@@ -3,9 +3,9 @@ The Cypress system is a web application that allows its Toronto users to report 
 
 Team Members
 1. Ahmed Abdulwasi Ahmed Bein - 501158343
-2. Tenzin Chokdup Chokdup - 501197969
-3. Safwan Khan - 501195988
-4. Manan Auluck - 501216921
+2. Safwan Khan - 501195988
+3. Manan Auluck - 501216921
+4. Tenzin Chokdup Chokdup - 501197969
 
 Contents of This Project
 ReadMe Page
