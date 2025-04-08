@@ -12,7 +12,5 @@ ReadMe Page
 This is the ReadMe page, which contains the project overview, the list of team members and the contents of this project.
 Product Backlog
 Focusing on the requirements, user stories, priorities, tasks, estimates (EST) and actual effort.
-Team Burndown Chart
-A burndown chart visualizing the number of stories left by the days given.
 Test Plan
 A test plan for sprint 3 that tests the important features that must be implemented.
