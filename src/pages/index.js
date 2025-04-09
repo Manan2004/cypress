@@ -17,7 +17,7 @@ export default function Home() {
   const [editForm, setEditForm] = useState(false);
   const [aPosition, setAPosition] = useState(null);
   const [description, setDescription] = useState('');
-  const [counter, setCounter] = useState(1);
+  const [counter, setCounter] = useState(1); // Added a counter here
 
 
   const toggleEditMode = useCallback(() => { // This is where we handle if the EditMode is on or off and if its on, we should reset everything for the user to input.
@@ -51,7 +51,7 @@ export default function Home() {
       ...currentMarkers,
       {
         position: aPosition,
-        id: `marker-${Date.now()}`,
+        id: `${Date.now()}`,
         description: description || "No description provided"
       }
     
