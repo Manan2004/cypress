@@ -17,6 +17,7 @@ export default function Home() {
   const [editForm, setEditForm] = useState(false);
   const [aPosition, setAPosition] = useState(null);
   const [description, setDescription] = useState('');
+  const [counter, setCounter] = useState(1);
 
 
   const toggleEditMode = useCallback(() => { // This is where we handle if the EditMode is on or off and if its on, we should reset everything for the user to input.
@@ -43,7 +44,7 @@ export default function Home() {
 
   const handleSubmit = useCallback((e) => { // Once the user finishes inputting, we save/print their inputs and reset everything including shutting down the description form.
     e.preventDefault();
-    
+    setCounter(prevCounter => prevCounter + 1);
     if (!aPosition) return;
     
     setMarkers(currentMarkers => [
@@ -53,6 +54,7 @@ export default function Home() {
         id: `marker-${Date.now()}`,
         description: description || "No description provided"
       }
+    
     ]);
     
     // Reset the form
@@ -160,7 +162,7 @@ export default function Home() {
             and track problems they notice on city streets. Users can pinpoint
             the location of issues on an interactive map, specify the type of
             problem, and submit reports to the City of Toronto with all
-            necessary details.
+            necessary details. Total number of reports: {counter}.
           </p>
         </Container>
       </Section>
