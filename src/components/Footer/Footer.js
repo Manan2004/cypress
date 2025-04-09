@@ -6,7 +6,7 @@ const Footer = ({ ...rest }) => {
   return (
     <footer className={styles.footer} {...rest}>
       <Container className={`${styles.footerContainer} ${styles.footerLegal}`}>
-        <p>&copy; Cypress, {new Date().getFullYear()}</p>
+        <p>&copy; Cypress, By Group 39, {new Date().getFullYear()}</p>
       </Container>
     </footer>
   );

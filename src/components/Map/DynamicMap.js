@@ -1,13 +1,26 @@
 import { useEffect } from 'react';
 import Leaflet from 'leaflet';
 import * as ReactLeaflet from 'react-leaflet';
+import { useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
 import styles from './Map.module.scss';
 
 const { MapContainer } = ReactLeaflet;
 
-const Map = ({ children, className, width, height, ...rest }) => {
+function MapClickHandler({ onClick }) {
+  // A hook from react-leaflet
+  useMapEvents({
+    click: (e) => {
+      if (onClick) {
+        onClick(e);
+      }
+    }
+  });
+  return null;
+}
+
+const Map = ({ children, className, width, height, onClick, ...rest }) => {
   let mapClassName = styles.map;
 
   if ( className ) {
@@ -26,7 +39,8 @@ const Map = ({ children, className, width, height, ...rest }) => {
   }, []);
 
   return (
-    <MapContainer className={mapClassName} {...rest}>
+    <MapContainer className={mapClassName} style={{ width, height }} {...rest}>
+      {onClick && <MapClickHandler onClick={onClick} />}
       {children(ReactLeaflet, Leaflet)}
     </MapContainer>
   )
