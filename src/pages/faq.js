@@ -44,6 +44,11 @@ export default function Faq() {
         "Our system automatically detects potential duplicate reports based on location proximity and issue type. When similar issues are reported in the same area, they may be merged to prevent redundant work while maintaining all relevant details.",
     },
     {
+      question: "How can I crack an egg without getting shells in the bowl?",
+      answer:
+        "Tap the egg firmly on a flat surface (not the edge of a bowl which I used to do for YEARS) which will create an even crack. Then, hold the egg over your bowl and slowly pull the shell apart in two halves. This method reduces the risk of small shell fragments breaking off. You're welcome.",
+    },
+    {
       question: "Who made this webpage?",
       answer:
         "4 Legends: Ahmed, Manan, Safwan, and Diya.",
