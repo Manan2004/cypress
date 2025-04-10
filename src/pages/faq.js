@@ -16,7 +16,7 @@ export default function Faq() {
     {
       question: "How do I report a problem?",
       answer:
-        "To report a problem, navigate to the map on our homepage, click on the \"Add Marker\" button, select the place where problem is, add additional details as needed, and submit your report. You'll be able to view your report as quickly as possible.",
+        "To report a problem, navigate to the map on our homepage, click on the \"Add Marker\" button, select the place where problem is, add additional details as needed, specify the type of problem, and submit your report. You'll be able to view your report as quickly as possible.",
     },
     {
       question: "What types of problems can I report?",
@@ -34,14 +34,19 @@ export default function Faq() {
         "Our system allows for arbitrary accuracy in pinpointing locations. The more precise you can be, the easier it will be for city workers to find and fix the problem. The map allows you to zoom in to street level for accurate placement.",
     },
     {
-      question: "Can I track the status of my report?",
+      question: "How do I check the total number of reports made?",
       answer:
-        "Yes, once you submit a report, you'll receive a unique tracking number. You can use this number on our website to track the status of your report and receive updates as the issue is addressed.",
+        "You can check the total number of reports made below the map integerated with the description as a counter.",
     },
     {
       question: "How are duplicate reports handled?",
       answer:
         "Our system automatically detects potential duplicate reports based on location proximity and issue type. When similar issues are reported in the same area, they may be merged to prevent redundant work while maintaining all relevant details.",
+    },
+    {
+      question: "Who made this webpage?",
+      answer:
+        "4 Legends: Ahmed, Manan, Safwan, and Diya.",
     },
   ];
 
