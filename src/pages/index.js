@@ -181,9 +181,10 @@ export default function Home() {
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                   />
 
-                  <ReactLeaflet.Marker position={DEFAULT_CENTER}>
+                  <ReactLeaflet.Marker position={[-7.613907902505393, 110.71233105734858]}>
                     <ReactLeaflet.Popup>
-                      A pretty CSS3 popup. <br /> Easily customizable.
+                      2 Cool Facts: <br />
+                      1.The island is called Java. <br /> 2. Someone's name here is Batman Bin Suparman (One of the coolest names ever).
                     </ReactLeaflet.Popup>
                   </ReactLeaflet.Marker>
 

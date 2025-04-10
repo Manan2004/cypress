@@ -46,7 +46,7 @@ export default function Faq() {
     {
       question: "How can I crack an egg without getting shells in the bowl?",
       answer:
-        "Tap the egg firmly on a flat surface (not the edge of a bowl which I used to do for YEARS) which will create an even crack. Then, hold the egg over your bowl and slowly pull the shell apart in two halves. This method reduces the risk of small shell fragments breaking off. You're welcome.",
+        "Tap the egg firmly on a flat surface (not the edge of a bowl which I used to do for YEARS) which will create an even crack. Then, hold the egg over your bowl and slowly pull the shell apart in two halves. This method reduces the RISK of small shell fragments breaking off. You're welcome.",
     },
     {
       question: "Who made this webpage?",
