@@ -8,7 +8,7 @@ Team Members
 4. Manan Auluck - 501216921
 5. Tenzin Chokdup Chokdup - 501197969
 
-Contents of This Project
+Delivery Package
 ReadMe Page
 This is the ReadMe page, which contains the project overview, the list of team members and the contents of this project.
 Product Backlog
@@ -16,7 +16,7 @@ Focusing on the requirements, user stories, priorities, tasks, estimates (EST), 
 Test Report
 A test report for sprint 3 that tests the important features that must be implemented, and records actual outputs and whether it passes or not.
 Source Code
-Includes our entire code project and how we run it by downloading all the necessary files.
+Includes our entire code project and how we run it by downloading all the necessary files. Link Here: https://github.com/Manan2004/cypress
 Demo Video
 A short video demonstration showing the Cypress system in action, highlighting key features and user interactions.
 
