@@ -33,6 +33,7 @@ cd cypress
 npm install
 4. Start the development server:
 npm run dev
+
 Note: This starts the Next.js development server. By default, it'll be accessible at http://localhost:3000.
 
 ### 🔍 Technologies
