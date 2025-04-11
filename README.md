@@ -15,10 +15,8 @@ This project is a starter template for building interactive mapping applications
 
 ## 🚀 Getting Started
 
-### Requirements
-
-### Quick Start
-
+### Demo Video
+[Demo video by Ahmed Bein](https://drive.google.com/file/d/1HA1YVfa4XCqjp0fC42aRI6CBWlSv2M2p/view?usp=sharing)
 
 ### Running the Project
 First, run the development server:
