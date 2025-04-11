@@ -13,7 +13,7 @@ const DEFAULT_CENTER = [43.65229790812004, -79.3834161444346];
 // Set a duplicate threshold in meters (e.g., 30 m)
 const DUPLICATE_THRESHOLD = 30;
 
-// Helper function to calculate distance in meters between two coordinates using the Haversine formula
+// Calculate distance in meters between two coordinates using the Haversine formula
 function calculateDistance(coord1, coord2) {
   const toRad = (value) => (value * Math.PI) / 180;
   const R = 6371000; // Earth radius in meters
@@ -34,14 +34,12 @@ function calculateDistance(coord1, coord2) {
 
 export default function Home() {
   const [markers, setMarkers] = useState([]);
-  const [isEditMode, setIsEditMode] = useState(false); // Control for edit mode
+  const [isEditMode, setIsEditMode] = useState(false); 
   const [editForm, setEditForm] = useState(false);
   const [aPosition, setAPosition] = useState(null);
   const [description, setDescription] = useState('');
-  // New state for category input when adding a marker
   const [category, setCategory] = useState('');
   const [counter, setCounter] = useState(1);
-  // New state for filtering markers by category
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const toggleEditMode = useCallback(() => {
@@ -67,12 +65,10 @@ export default function Home() {
     setDescription(e.target.value);
   }, []);
 
-  // New handler for category changes when adding a marker
   const handleChangeCategory = useCallback((e) => {
     setCategory(e.target.value);
   }, []);
 
-  // Helper: Check if a marker at a similar position already exists.
   const isDuplicate = useCallback((newPosition) => {
     return markers.some(marker => {
       const distance = calculateDistance(marker.position, newPosition);
@@ -88,14 +84,12 @@ export default function Home() {
     // Check for duplicate marker
     if (isDuplicate(aPosition)) {
       alert("A similar marker already exists in this area.");
-      // Optionally, you could add logic to merge details or update the existing marker
       return;
     }
 
     // Increment counter
     setCounter(prevCounter => prevCounter + 1);
 
-    // Extend marker object to include category. If none is provided, store "uncategorized"
     const newMarker = {
       position: aPosition,
       id: `${Date.now()}`,
@@ -153,7 +147,6 @@ export default function Home() {
               Filter by Category:&nbsp;
               <select value={selectedCategory} onChange={handleFilterChange}>
                 <option value="all">All</option>
-                {/* Predefine some category options. You can modify or generate these as needed. */}
                 <option value="pothole">Pothole</option>
                 <option value="graffiti">Graffiti</option>
                 <option value="streetlight">Streetlight</option>
