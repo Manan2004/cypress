@@ -17,3 +17,17 @@ Test Report
 A test report for sprint 3 that tests the important features that must be implemented, and records actual outputs and whether it passes or not.
 Source Code
 Includes our entire code project and how we run it by downloading all the necessary files.
+Demo Video
+A short video demonstration showing the Cypress system in action, highlighting key features and user interactions.
+
+
+Instructions on how to run it:
+1. Clone the repository by doing: 
+git clone https://github.com/Manan2004/cypress
+2. Navigate to the project directory: 
+cd cypress
+3. Install dependencies:
+npm install
+4. Start the development server:
+npm run dev
+Note: This starts the Next.js development server. By default, it'll be accessible at http://localhost:3000.
