@@ -39,7 +39,7 @@ export default function Home() {
   const [aPosition, setAPosition] = useState(null);
   const [description, setDescription] = useState('');
   const [category, setCategory] = useState('');
-  const [counter, setCounter] = useState(1);
+  const [counter, setCounter] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const toggleEditMode = useCallback(() => {
