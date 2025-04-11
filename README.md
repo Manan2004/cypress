@@ -16,7 +16,8 @@ This project is a starter template for building interactive mapping applications
 ## 🚀 Getting Started
 
 ### Demo Video
-[Demo video by Ahmed Bein](https://drive.google.com/file/d/1HA1YVfa4XCqjp0fC42aRI6CBWlSv2M2p/view?usp=sharing)
+If you would like to view our cypress web application in action, Click on the Google Drive link. This Demo video was made by Ahmed Bein.
+[Google Drive](https://drive.google.com/file/d/1HA1YVfa4XCqjp0fC42aRI6CBWlSv2M2p/view?usp=sharing)
 
 ### Running the Project
 First, run the development server:
