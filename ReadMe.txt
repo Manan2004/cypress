@@ -1,5 +1,9 @@
 Project Overview
-The Cypress system is a web application that allows its Toronto users to report and track problems they notice on city streets. The Cypress system allows its citizens to pinpoint the location of the problem on a user-friendly map with arbitrary accuracy, accurately specify the type of problem, and report it to the City of Toronto with all necessary details. Also, citizens can consult the map to learn about the problems in a given area without false/duplicate reports and more.
+
+The Cypress System is a web application designed to help Toronto residents report and track non-emergency street issues like potholes, road damage, 
+or missing signs. Users can place markers on an interactive map, select the issue type from predefined categories, and submit detailed reports. 
+The platform also allows users to view and filter existing reports based on location or urgency, helping highlight the most affected areas. 
+Cypress aims to simplify the reporting process and make it easier for city services to respond to community concerns.
 
 Team Members
 1. Ahmed Abdulwasi Ahmed Bein - 501158343
